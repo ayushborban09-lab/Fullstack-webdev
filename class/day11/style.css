@@ -1,0 +1,59 @@
+    *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+ width: 100%;
+}
+img{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    animation-name: ayu;
+    animation-duration: 5s;
+    animation-delay: 3s;
+
+}
+
+@keyframes ayu {
+    from{
+        left: 0;
+        top: 0;
+        rotate: 0;
+    }
+    to{
+        left: 80%;
+        top: 80%;
+        rotate: 360deg;
+    }
+    
+}
+
+#ig2{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    animation-name: ab;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    /* animation: loop duration timing-function delay iteration-count direction fill-mode; */
+
+}
+@keyframes amit {
+    
+}
+@keyframes ab{
+    from{
+       left: 0%;
+        top: 100%;
+        rotate: 0;
+    }
+    to{
+        left: 90%;
+        top: 0;
+        rotate: 360deg;
+    }
+    
+}

@@ -1,0 +1,102 @@
+    *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+ width: 100%;
+}
+#box{
+    /* background-color: aqua; */
+    display: flex;
+    gap: 30px;
+    /* padding: 50px; */
+     animation-name: ew;
+    animation-duration: 10s;
+    /* animation-delay: 1s; */
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-fill-mode: forwards;
+   
+
+}
+#v2 h2{
+    background-color: antiquewhite;
+    padding: 10px;
+   
+
+}
+
+@keyframes ew {
+      from{
+      
+    }
+    to{
+       
+         transform: translate(-100%,0);
+        
+    }
+    
+}
+
+H1{
+    font-size: 100PX;
+    text-align: center;
+
+}
+img{
+    height: 300px;
+    /* display: flex; */
+
+}
+
+#v2{  
+      margin-top: 20px;
+      background-color: aqua;
+      display: flex;
+    /* gap: 30px; */
+    /* padding: 50px; */
+     animation-name: ew;
+    animation-duration: 10s;
+    /* animation-delay: 1s; */
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-fill-mode: forwards;
+}
+
+
+
+#yt{  
+      margin-top: 20px;
+      background-color: aqua;
+      display: flex;
+    /* gap: 30px; */
+    /* padding: 50px; */
+     animation-name: ll;
+    animation-duration: 10s;
+    /* animation-delay: 1s; */
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-fill-mode: forwards;
+   animation-direction: alternate;
+
+   margin: 300px;
+   height: 500px;
+   width: 500px;
+}
+
+@keyframes ll {
+      from{
+       left: 0%;
+        top: 100%;
+        /* rotate: 0; */
+    }
+    to{
+        left: 90%;
+        top: 0;
+         /* transform: translate(-100%,0); */
+        rotate: 360deg;
+    }
+    
+}

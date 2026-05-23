@@ -1,0 +1,378 @@
+    *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+ width: 100%;
+}
+
+
+#nav{ 
+    background-color: white;
+    margin:  0 -8px;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    backdrop-filter: blur (10px);
+    /* position: fixed; */
+}
+ #nav h4{
+    color:black;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#as{
+    height: 80%; 
+    width: 100%; 
+    background-image: url(https://www.apple.com/v/home/a/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_largetall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 25px;
+}
+
+#as h1{
+    font-size: 48px;
+    font-weight: 550;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-top: 30px;
+
+}
+h4{
+    font-size: 22px;
+    margin-bottom:10px;
+    font-weight: 400;
+    font-family:  SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+#but9{
+    margin-top: 12px;
+   padding: 10px 20px;
+   font-size: 17px;
+   /* background-color:; */
+   color: white;
+   border: 2px solid royalblue;
+   background-color: royalblue;
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+
+} 
+
+ #but10{
+    margin-top: 12px;
+   padding: 10px 20px;
+   font-size: 17px;
+   color: royalblue;
+   border: 2px solid royalblue;
+   background-color: transparent;
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   transition: 0.4s;
+    margin-left: 5px;
+
+
+} 
+
+#but10:hover{
+    color: white;
+    background-color: royalblue;
+
+}
+
+.page2{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/a/images/heroes/macbook-neo/hero_macbook_neo__gnm3snkti4a6_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 4%;
+    text-align: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   
+}
+
+#p2{
+    font-size: 48px;
+    margin-bottom: 5px;
+    font-weight: 550;
+}
+p{
+    font-size:27px ;
+    margin: 5px;
+} 
+#but1{
+    margin-top: 12px;
+   padding: 10px 20px;
+   font-size: 17px;
+   /* background-color:; */
+   color: white;
+   border: 2px solid royalblue;
+   background-color: royalblue;
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+
+} 
+
+ #but2{
+    margin-top: 12px;
+   padding: 10px 20px;
+   font-size: 17px;
+   color: royalblue;
+   border: 2px solid royalblue;
+   background-color: transparent;
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   transition: 0.4s;
+   margin-left: 5px;
+
+
+} 
+
+#but2:hover{
+    color: white;
+    background-color: royalblue;
+}
+.ipad{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/a/images/heroes/ipad-air-m4/hero_ipad_air_m4__ew8k92mk1w6e_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 4%;
+    text-align: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   
+}
+/* #air{
+    font-family: 'Poppins',sans-serif;
+} */
+h1{
+    font-size: 48px;
+    font-weight: 550;
+}
+
+#but3{
+    margin-top: 12px;
+   padding: 10px 20px;
+   font-size: 17px;
+   /* background-color:; */
+   color: white;
+   border: 2px solid royalblue;
+   background-color: royalblue;
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+
+} 
+
+ #but4{
+    margin-top: 12px;
+   padding: 10px 20px;
+   font-size: 17px;
+   color: royalblue;
+   border: 2px solid royalblue;
+   background-color: transparent;
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   transition: 0.4s;
+   margin-left: 5px;
+
+
+} 
+
+#but4:hover{
+    color: white;
+    background-color: royalblue;
+}
+
+
+#wdc{
+    height: 80%;
+    width: 49%;
+    background-image: url(https://www.apple.com/v/home/a/images/promos/wwdc26-announce/promo_wwdc26_announce__b74q051bn5ki_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* display: flex; */
+    position: absolute;
+    left: 1%;
+
+}
+
+#lk{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    position: absolute;
+    top: 70%;
+    left: 22%;
+}
+ #wd{  margin-top: 12px;
+   padding: 10px 20px;
+   font-size: 12px;
+   /* background-color:; */
+   color: white;
+   border: 2px solid royalblue;
+   background-color: royalblue;
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   position: absolute;
+   top: 82%;
+    left: 42%;
+
+
+ }
+
+ #airpod{
+     height: 80%;
+    width: 48%;
+    background-image: url(https://www.apple.com/v/home/a/images/promos/airpods-max-2/promo_airpods_max_2__bglmlnex7coi_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    position: absolute;
+    left: 51%;
+    top: 254.8%;
+
+ }
+
+ #air{
+    color: black;
+    text-align: center;
+    font-size: 39px;
+    position: absolute;
+    top: 70%;
+    left: 33%;
+     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   
+}
+
+#max{
+     color: black;
+    text-align: center;
+    font-size: 21px;
+    position: absolute;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    top: 77%;
+    left: 35%;
+    margin-top: 10px;
+}
+ #but5{  margin-top: 15px;
+   padding: 10px 20px;
+   font-size: 12px;
+   /* background-color:; */
+   color: white;
+   border: 2px solid royalblue;
+   background-color: royalblue;
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   position: absolute;
+   top: 82%;
+    left: 37%;
+ }
+
+
+ #but6{  margin-top: 15px;
+   padding: 10px 20px;
+   font-size: 12px;
+   /* background-color:; */
+   color: royalblue;
+   border: 2px solid royalblue;
+   /* background-color: royalblue; */
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   position: absolute;
+   top: 82%;
+    left: 52%;
+ }
+ 
+ #but6:hover{
+    color: white;
+    background-color: royalblue;
+}
+
+
+#watch{
+      height: 80%;
+    width: 49%;
+    background-image: url(https://www.apple.com/v/home/a/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* display: flex; */
+    position: absolute;
+    top: 337%;
+    left: 1%;
+
+}
+#wa{
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    font-size: 33px;
+    font-weight: 500;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   
+}
+
+b{
+    font-weight: 700;
+}
+
+#wap{
+    margin-top: 10px;
+     position: absolute;
+    top: 20%;
+    left: 21%;
+    font-size: 20px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   
+}
+
+#but7{  margin-top: 15px;
+   padding: 10px 20px;
+   font-size: 12px;
+   /* background-color:; */
+   color: white;
+   border: 2px solid royalblue;
+   background-color: royalblue;
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   position: absolute;
+   top: 27%;
+    left: 29%;
+ }
+
+
+ #but8{  margin-top: 15px;
+   padding: 10px 20px;
+   font-size: 12px;
+   /* background-color: royalblue; */
+   color: royalblue;
+   border: 2px solid royalblue;
+   background-color: transparent;
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   position: absolute;
+   top: 27%;
+    left: 45%;
+ }
+
+   #macpro{
+     height: 80%;
+    width: 48%;
+    background-image: url(https://www.apple.com/v/home/a/images/promos/macbook-pro/promo_macbook_pro__e3xqrygvp9ea_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    position: absolute;
+    left: 51%;
+    top: 337%;
+  } 

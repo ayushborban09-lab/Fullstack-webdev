@@ -1,0 +1,99 @@
+    *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+ width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    /* padding; */
+    /* background-color: aqua; */
+    position: relative;
+}
+
+/* vmax 
+  main axies justify
+  agline cross
+  flex ditrction column
+  @media(maw h
+  ) */
+
+
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+
+
+}
+
+#navpt2{
+    display: flex;
+    gap: 20px;
+}
+
+#imge{
+    height: 600px;
+    width: 1300px ;
+    background-image:url(https://images.unsplash.com/photo-1560179707-f14e90ef3623?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2ZmaWNlJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D) ;
+  background-position:center;
+  background-size: cover;
+  border-radius: 30px;
+  padding: 30px;
+  color: aliceblue;
+  margin: 40px 120px;
+ 
+}
+#imge h4{
+    padding-top: 20px;
+    /* font-size: 30px */
+}
+
+
+#imgeword{
+    margin-top: 100px;
+    padding-left: 30px;
+}
+#imgeword h1{
+    font-size: 50px;
+
+}
+
+button{ 
+    padding: 15px 30px;
+    font-size: medium;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: antiquewhite;
+
+}
+
+#bottomleft{
+    margin: 0 120px;
+}
+
+
+footer{
+    display: flex;
+
+    /* justify-content: space-between; */
+    gap: 50px;
+    padding-right: 120px;
+}
+/* #bottomright{
+    position: absolute;
+   left: 50%;
+   display: flex;
+} */
+
+@media max {
+    
+}

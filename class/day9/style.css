@@ -1,0 +1,122 @@
+    *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+ width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+
+  
+}
+  video{ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+        
+    }
+    #TR{
+        /* background-color: antiquewhite; */
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        padding: 60px;
+
+    }
+
+    nav{
+    height: 80px;
+    width: 100%;
+    background-color:  black(255, 0, 0, 0.182);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid black;
+    backdrop-filter: blur(5px);
+    color: white;
+   
+}
+#pt1{ 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    
+}
+#pt2{
+     display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+#pt3{
+     display: flex;
+    justify-content: right;
+    gap: 30px;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+#center{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#re{
+     font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#dt{
+    height: 43%;
+    width: 15%;
+    background-color: rgba(0, 0, 0, 0.23);
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    padding: 20px;
+    backdrop-filter: blur(1px);
+    color: white;
+}
+
+ /* section{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+}  */
+
+/* 
+#nav-pt1{
+    background-image: url(https://www.bmw.in/content/dam/bmw/common/images/logo-icons/BMW/BMW_White_Logo.svg.asset.1670245093434.svg);
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+#nav-pt2{
+    
+} */

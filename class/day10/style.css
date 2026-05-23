@@ -1,0 +1,57 @@
+    *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+ width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    overflow: auto;
+     background-color: aquamarine;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.card{
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ 
+.bottom{
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(black,transparent);
+    color:white ;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    bottom: -30%;
+}
+
+
+.card:hover .bottom{
+    bottom: 0;
+    
+}
+
+

@@ -1,0 +1,41 @@
+   
+  @font-face {
+    font-family:hello ;
+    src: url(./Modern\ Thrash\ Slant\ Demo.otf);
+  } 
+  @font-face {
+    font-family: h;
+    src: url(./Blood\ Victim\ Zombie.ttf);
+  }
+   *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+ width: 100%;
+}
+
+div{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/05/37/83/11/1000_F_537831197_Aex5dCRT27T4hcauLG477OkkANl0OAAv.jpg);
+    height: 100%;
+    width: 100%;
+background-position: top;
+background-size: cover;
+}
+h1{
+  padding: 50px 200px;
+    font-family: h;
+    font-weight: 100;
+    text-align: center;
+    font-size: 100px;
+    color: red;
+    /* line-height: 20; */
+}
+p{
+  font-family: hello;
+  font-size: 60px;
+  color: rgb(255, 0, 0);
+  font-weight: 10px;
+}

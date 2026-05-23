@@ -1,0 +1,91 @@
+ @font-face {
+    font-family:hello ;
+    src: url(./LobsterTwo-Bold.ttf);
+  } 
+  @font-face {
+    font-family:h ;
+    src: url(./LobsterTwo-BoldItalic.ttf);
+  } 
+   
+   *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+ width: 100%;
+}
+
+/* button{
+
+    margin: 300px 500px;
+    padding: 20px 10px ;
+    color: aqua;
+    background-color: antiquewhite;
+    border: 10px solid red;
+    border-radius: 50px;
+    size: 100px;
+}
+
+button:hover{
+    color:black;
+    background-color: rgb(31, 27, 241);
+    padding: 140px;
+} */
+ #ay{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/5380593/pexels-photo-5380593.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 80px;
+    text-align: center;
+    color: bisque;
+ }
+ h2{
+    font-weight: 100;
+    font-size: 60px;
+    font-family: hello;
+ }
+
+ p{
+    padding-top: 100px;
+    font-size:40px ;
+    font-family:h ;
+    padding-bottom: 40px;
+    color: bisque;
+    
+ }
+ button{
+   padding: 15px 60px;
+   font-family: h;
+   font-size: 40px;
+   background-color: rgb(193, 210, 225);
+   color: brown;
+   border: none;
+   border-radius: 50px;
+
+ }
+
+ button:hover{ 
+   background-color: rgb(227, 82, 113);
+   color: rgb(0, 0, 0);
+   /* margin: 100px; */
+   /* padding: 100px; */
+  
+
+ }
+ h2:hover{
+  background-color: brown;
+
+ }
+
+ p:hover{
+   color: rgb(227,82,113);
+ }
+ /* #kl{
+  background-image: url(https://scontent-hyd1-1.cdninstagram.com/v/t51.82787-19/517129399_18049742903407751_8740573316160964809_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-hyd1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gFKATjrNBk6vZ1dLMbJ-ze-foXr9w8atGjkH3kvedU_QE8kz0e0g0oGcBLrzXBpChPGWbaf92CRMmv4BW7UB-LR&_nc_ohc=reQXdwca_b4Q7kNvwHP99Xb&_nc_gid=Z3IkpiWUCnOBIlIT_Eq7qA&edm=ALGbJPMBAAAA&ccb=7-5&oh=00_AfzUhsYKHsw_JchdL1JMbfB0rP69jNuKehrEr-N7V9vajg&oe=69CC6DB6&_nc_sid=7d3ac5);
+ height: 50px;
+ width: 50px;
+} */

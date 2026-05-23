@@ -1,0 +1,690 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 2.5vw;
+    /* overflow: hidden; */
+}
+@font-face {
+    font-family: shery;
+    src: url(./font1.woff2);
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 0;
+}
+.part1{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.part1 i{
+    font-size: 2.5vmax;
+}
+.part2{
+    font-family: shery;
+    display: flex;
+    gap: 2vw;
+}
+.part2 a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+.part2 a:hover{
+    color: royalblue;
+}
+.part3{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.part3 i{
+    font-size: 2.5vmax;
+}
+.part3 button{
+    background-color: royalblue;
+    border: 1px solid transparent;
+    border-radius: 0.5vw;
+    color: white;
+    font-weight: 600;
+    padding: 0.8vw 2vw;
+    transition: all 0.3s ease;
+}
+.part3 button:hover{
+   color: royalblue;
+   background-color: white;
+   border: 0.5px solid #dadada;
+}
+
+@media (max-width: 600px) {
+    nav .part2{
+        display: none;
+    }
+} 
+
+.section-1{
+    height: 85vh;
+    width: 100%;
+}
+.hero-section{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #153274, #3F5FAA);
+    border-radius: 2vw;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.texts{
+    height: 100%;
+    width: 65%;
+    /* background-color: aqua; */
+    padding: 2vw 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8vw;
+    justify-content: center;
+}
+.texts p{
+    /* white-space: wrap; */
+    font-size: 1.4vmax;
+    color: white;
+    padding-right: 10%;
+}
+.texts h1{
+    font-size: 4.2vmax;
+    color: white;
+    font-weight: 600;
+}
+.texts div{
+    display: flex;
+    gap: 1.3vw;
+}
+.texts div button{
+    padding: 1vmax 3vmax;
+    border-radius: 1vw;
+   
+    color: white;
+    font-size: 1.4vw;
+}
+.btn11{
+    border: 1px solid transparent;
+    background-color: royalblue;
+    transition: all 0.3s ease;
+}
+.btn12{
+    border: 1px solid #dadada;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.btn11:hover{
+    color: white;
+    background-color: transparent;
+    border: 0.5px solid #dadada;
+}
+.btn12:hover{
+    background-color: royalblue;
+    color: white;
+    border: 1px solid transparent;
+    
+}
+.image{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    height: 35vmax;
+    width: 27vmax;
+    object-fit: cover;
+    margin-top: 12%;
+    
+    
+}
+@media (max-width:600px) {
+    .hero-section{
+        flex-direction: column-reverse;
+        
+    }
+    .image{
+        width: 100%;
+        
+    }
+     .image img{
+        height: 45vmax;
+        width: 35vmax;
+        margin-top: 10%;
+     }
+    .texts{
+        width: 100%;
+    }
+    .texts div button{
+        padding: 1.2vmax 3vmax;
+        font-size: 2vmax;
+        border-radius: 1vmax;
+    }
+
+}
+/* ***********************************  */
+.section-2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: maroon; */
+    padding-top: 4vh;
+}
+.featured{
+    width: 100%;
+    height: 8vmax;
+    /* background-color: slateblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.featured .btnsec2{
+    background-color: royalblue;
+    border: none;
+    border-radius: 0.5vw;
+    color: white;
+    font-weight: 600;
+    padding: 0.8vw 2vw;
+}
+.btnsee{
+    background-color: royalblue;
+    border: none;
+    border-radius: 0.5vw;
+    color: white;
+    font-weight: 600;
+    padding: 2vw 3vw;
+    display: none;
+    font-size: 2vh;
+    margin-left: 2.5vh;
+    margin-top: 3vh;
+}
+.featured h1{
+    font-size: 3.5vmax;
+    font-weight: 600;
+    font-family: shery;
+}
+.cards-container{
+    margin-top: 2vw;
+    height: 70%;
+    width: 100%;
+    /* background-color: cornsilk; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vh;
+}
+.card{
+    height: 100%;
+    width: 30%;
+    background-color: lavender;
+    border-radius: 3vmax;
+    overflow: hidden;
+    
+}
+.card img:hover{
+  transform: scale(1.09);
+}
+.card img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+.card div{
+    padding-left: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vmax;
+}
+.card div h6{
+    color: gray;
+
+}
+.card div h5{
+    color: royalblue;
+}
+.card div span{
+    color: gray;
+    text-decoration: line-through;
+}
+@media (max-width:700px) {
+    .cards-container{
+        flex-direction: column;
+        height: 150vh;
+        gap: 3vh;
+    }
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .featured .btnsec2{
+        display: none;
+    }
+    .btnsee{
+        display: block;
+    }
+}
+/*  ***********************************   */
+  .section-3{
+    height: 100vh;
+    width: 100%;
+    
+}
+.shopby{    
+    width: 100%;
+    height: 8vmax;
+    /* background-color: slateblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.btncontainer{
+    padding-right: 3vh;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.shopby .btncontainer button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2vw;
+    color: black;
+    font-weight: 600;
+    padding: 1.3vh 1.5vh;
+    transition: all 0.3s ease;
+}
+.shopby .btncontainer button:hover{
+    background-color: royalblue;
+    color: white;
+    border: 1px solid transparent;
+}
+.shopby h1{
+    font-size: 3.5vmax;
+    font-weight: 600;
+    font-family: shery;
+}
+ .cards-container2{
+    margin-top: 1.2vw;
+    height: 70%;
+    width: 100%;
+    /* background-color: cornsilk; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vh;
+}
+.card2{
+    height: 100%;
+    width: 30%;
+    background-color: lavender;
+    border-radius: 3vmax;
+    overflow: hidden;
+   
+} 
+.card2 img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+.card2 img:hover{
+    transform: scale(1.09);
+}
+.card2 div{
+    padding-left: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vmax;
+} 
+ .card2 div h6{
+    color: gray;
+
+}
+.card2 div h5{
+    color: royalblue;
+} 
+@media (max-width:700px) {
+    .section-3{
+        margin-top: 73vmax;
+    }
+    .cards-container2{
+        
+        flex-direction: column;
+        height: 170vh;
+        gap: 3vh;
+    }
+    .card2{
+        width: 100%;
+        height: 100%;
+    }
+    .shopby .btncontainer{
+        display: none;
+    }
+    
+} 
+#section3 {
+    height: 100%;
+    width: 100%;
+    background-color:rgb(247, 247, 255) ;
+    /* background-color: aquamarine; */
+    /* padding: 3vw 8vw; */
+
+}
+
+#section3 #shop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw 0.2vw;
+    
+}
+
+#shop h1{
+    font-size: 2.5vw;
+    font-weight: 800;
+}
+#shop #bt12{
+     /* margin-right: 3vw; */
+     display: flex;
+     gap: 1vw;
+     
+     
+}
+
+#shop #b45{
+    border-radius: 50%;
+    border:0.1vw solid black;
+    padding: 1vw ;
+    font-size: 1.5vw;
+    background-color:rgb(91, 91, 165) ;
+
+}
+
+
+#shopcard{
+    display: flex;
+    gap: 4vw;
+    margin: 3vw 9vw;
+}
+
+#shopcard  #cardshop{
+
+    height: 31vw;
+    width: 25vw;
+    background-color: rgb(238, 239, 250);
+    border-radius: 2vw;
+    padding: 4.5vw 0.8vw;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#shopcard #cardshop  h1{
+    font-weight: 700;
+    margin-bottom: 0.5vw;
+    font-size: 1.6vw;
+
+}
+#shopcard #cardshop  p{
+     font-weight: 300;
+    color:  rgb(159, 160, 175) ;
+    margin-bottom: 0.7vw;
+    font-size:1.6vw ;
+}
+#shopcard #cardshop button{
+    color: rgb(64, 107, 208);
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    font-weight: 700;
+    margin-left: 3vw;
+    /* background-color: aquamarine; */
+    border: none;
+}
+
+#shopcard #cardshop img{
+    height: 14vw;
+    width: 12vw;
+    margin-left: 11.8vw;
+    /* margin-top: 0.vw; */
+    padding-bottom: 1vw;
+
+
+}
+#shopcard #cardshop #imgg1{
+    height:15vw ;
+    width: 14vw;
+}
+
+
+#section4{
+     height: 85%;
+     width: 100%;
+     background-color:rgb(238, 239, 250) ;
+     border-radius: 2vw;
+     /* background-color: aquamarine; */
+     padding: 5vw 0;
+}
+
+
+#section4 #top{
+    font-size: 1.5vw;
+    font-weight: 900;
+    white-space: nowrap;
+    /* align-items: center; */
+    text-align: center;
+
+}
+
+#section4 #bottom{
+    text-align: center;
+    display: flex;
+    /* align-items: center; */
+    padding: 3vw 0;
+    justify-content: center;
+    gap: 5vw;
+}
+
+#section4 #bottom #freedelivery{
+    height: 20vw;
+    width: 23vw;
+    /* background-color: rgb(238, 239, 250); */
+    text-align: center;
+
+}
+
+#section4 #bottom #SelfPickup{
+    height: 20vw;
+    width: 23vw;
+    text-align: center;
+
+}
+#section4 #bottom #Warranty{
+    height: 20vw;
+    width: 23vw;
+    text-align: center;
+
+}
+
+  #section4 #bottom  h3{
+    font-size: 4vw;
+    font-weight: 100;
+    margin: 1vw 0;
+    text-align: center;
+    
+}
+
+#section4 #bottom h1{
+    font-size: 2vw;
+    font-weight: 100;
+    margin: 1vw 0;
+    text-align: center;
+
+} 
+
+#section4 #bottom p{
+    font-size: 1.13vw;
+    margin: 1vw 0;
+    text-align: center;
+    color: rgb(137, 139, 158);
+
+} 
+#section4 button{
+    background-color: rgb(64, 107, 208);
+    margin-left: 47.4vw;
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    font-weight: 700;
+    border: none;
+    border-radius: 1vw;
+    
+}
+
+#section4 button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+#section5 {
+     height: 85%;
+     width: 100%;
+     background-color:rgb(247, 248, 255) ;
+     border-radius: 2vw;
+     /* background-color: aquamarine; */
+     padding: 5vw 0;
+}
+#section5 #topp{
+    font-size: 1.5vw;
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+#section5 #bottomm{
+    display: flex;
+    justify-content: center;
+    padding: 3vw;
+    gap: 4vw;
+    /* background-color: aqua; */
+}
+#section5 #bottomm #left{
+  /* background-color: beige; */
+  height: 28vw;
+}
+
+#section5 #bottomm #left #topleft{
+    /* background-color: cadetblue; */
+    height: 12vw;
+    width: 25vw;
+    text-align: left;
+    white-space: nowrap;
+
+}
+
+#section5 #bottomm #left #bottomleft{
+    /* background-color: rgb(64, 107, 208); */
+    height: 12vw;
+    width: 25vw;
+    text-align: left;
+    white-space: nowrap;
+    margin-top: 2vw;
+
+}
+
+
+#section5 #right{
+  /* background-color: beige; */
+    height: 28vw;
+}
+
+#section5 #bottomm #right #topright{
+    /* background-color: cadetblue; */
+    height: 12vw;
+    width: 25vw;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#section5 #bottomm #right #bottomright{
+    /* background-color: rgb(64, 107, 208); */
+    height: 12vw;
+    width: 25vw;
+    text-align: left;
+    white-space: nowrap;
+    margin-top: 2vw;
+
+  
+}
+#section5 #bottomm h1{
+    font-size: 2vw;
+    font-weight: 500;
+    margin: 1vw 0;
+    text-align: left;
+
+}
+
+#section5 #bottomm p{
+    font-size: 1.13vw;
+    margin: 1vw 0;
+    color: rgb(137, 139, 158);
+
+}
+
+#section5 #bottomm #middel{
+    height: 20vw;
+    width: 25vw;
+    margin: 5vw 0;
+    /* background-color: palevioletred; */
+    /* object-fit: cover; */
+}
+
+#section5 #bottomm #middel img{
+    height: 20vw;
+    width: 25vw;
+}
+
+#section5 #btns{
+    margin-left: 45vw;
+    width: 20vw;
+
+}
+
+#section5 button{
+    background-color: rgb(64, 107, 208);
+  
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    font-weight: 700;
+    border: none;
+    border-radius: 1vw;
+    /* white-space: nowrap; */
+    /* display: flex; */
+
+
+}
+
+#section5 #btns a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500 !;
+    
+
+}

@@ -1,0 +1,38 @@
+*{
+    margin : 0 ;
+    padding : 0;
+    box-sizing: border-box ;
+}
+
+    html,body{
+        height: 100%;
+        width: 100%;
+
+    }
+ 
+    h1{
+        color: rgb(127, 238, 23);
+        background-color: bisque;
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 100;
+        font-style: inherit;
+        text-decoration: double;
+        text-align: center;
+        
+    }
+    h2{
+        color: rgb(238, 148, 23);
+        background-color: rgb(220, 196, 255);
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 100;
+        font-style: inherit;
+        text-decoration: double;
+        text-align: center;
+        
+    }
+    h1{
+        color: rgb(243, 186, 112);
+        background-color: rgb(114, 252, 206);
+    }

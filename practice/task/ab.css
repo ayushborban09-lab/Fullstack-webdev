@@ -1,0 +1,284 @@
+  @font-face {
+    font-family: tr;
+    src: url(./HitmarkerCondensed-Regular.woff2);
+  } 
+  @font-face {
+    font-family: pr;
+    src: url(./HitmarkerCondensed-Black.woff2);
+  }
+  @font-face {
+    font-family: er;
+    src: url(./HitmarkerText-Bold.woff2);
+  }
+
+   *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+/* font-family: tr; */
+
+
+}
+html,body{
+  height: 100%;
+ width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+
+#backimg{
+    height: 100%;
+    width: 100%;
+    /* background-image:url(https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/hub/v2023/hero/2026/04/COD-HP_Hero_Tablet_Operator.webp) ; */
+   background-image: url(https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/hub/v2023/hero/2026/04/COD-HP_Hero_Tablet.webp);
+    background-position: center;
+    background-size: cover;
+}
+#navbar{
+ 
+    padding-top: 15px;
+ 
+}
+nav{
+    
+    height: 8%;
+    width: 95%;
+    background:linear-gradient(transparent,black);
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    backdrop-filter: blur(20px);
+    color: white;
+    padding: 40px;
+    font-family: er;
+    
+}
+#navleft img{
+   height: 60px;
+   width: 120px;
+}
+
+#navleft{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#navright{
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      font-size: 20px;
+
+}
+#login{
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+#getback{
+    padding: 13px 30px;
+     font-size: 10px;
+    background-color: #0E4096;
+    color: white;
+    border: none;
+
+}
+
+section{
+    color: white;
+    padding-top: 170px;
+    padding-left: 100px;
+}
+
+section h1{
+    font-size: 145px;
+    font-family: pr;
+    /* inline-size: none; */
+    line-height: 130px;
+}
+
+section p{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 50;
+    /* inline-size: 1px; */
+    font-family: tr;
+}
+
+section #bt1{
+     margin-top: 25px;
+     padding: 10px 42px;
+     color: white;
+     background-color: transparent;
+     border: 1px solid #858585;
+     font-size: 19px;
+}
+
+#page1{
+     height: 200%;
+     width: 100%;
+     background: linear-gradient(rgb(71, 71, 71),black);
+     backdrop-filter: blur(10px);
+     /* background-color: black; */
+     /* color: gray; */
+     /* text-align: center; */
+}
+
+#top1{
+     padding: 40px 210px;
+     display: flex;
+     align-items: center;
+     gap: 100px;
+     color: white;
+     font-size: 18px;
+}
+
+#joinnow{
+     padding: 15px 30px ;
+     font-family: er;
+     color: white;
+     background-color: rgb(16, 124, 16);
+}
+
+#imggs{
+     position: relative;
+
+
+}
+#img1{
+     /* background-image: url(https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/hub/v2023/touts/2026/04/COD-HP_Primary-Tout_Desktop-LG.webp); */
+     height: 370px;
+     width: 950px;
+     padding-left: 100px;
+     border-color: #858585;
+     /* border: 2px solid rgb(42, 40, 40);   */
+}
+#ipt1{
+     position: absolute;
+     color: white;
+     top: 170px;
+     padding-left: 150px;
+
+}
+
+#ipt1 p{
+     font-weight: 300;
+     margin-top: 10px;
+     font-size: 20px;
+}
+#LEVELUP{
+     margin-top: 10px;
+     font-size: 15px;
+     background-color: transparent;
+     color: white;
+     border: none;
+     font-family: pr;
+}
+#ipt1 h4{
+     font-size: 20px;
+     inline-size: none;
+     font-family: pr;
+}
+#ipt1 h1{
+     font-family: pr;
+     font-size: 50px;
+}
+
+#mn{
+     position: relative;
+     color: white;
+}
+
+#img2{ 
+     height: 350px;
+     width: 500px;
+     padding-left: 100px;
+     border-color: #858585;
+     /* position: relative; */
+     /* border: 2px solid rgb(42, 40, 40); */
+}
+#ipt2{
+    position: absolute;
+      top: 170px;
+     left: 130px;
+}
+#ipt2 h5{
+     font-size: 18px;
+     font-family: er;
+}
+#ipt2 h1{
+     margin-top: 15px;
+     font-size: 35px;
+     font-family: pr;
+}
+#leranmore{
+     margin-top: 10px;
+     font-size: 15px;
+     background-color: transparent;
+     color: white;
+     border: none;
+     font-family: pr;
+     font-weight: 100;
+}
+
+#nm{
+     position: relative;
+     color: white;
+}
+#ipt3{
+     position: absolute;
+     top: 170px;
+     left: 30px;
+}
+#ipt3 h5{
+     font-size: 18px;
+     font-family: er;
+}
+
+#ipt3 h1{
+      margin-top: 15px;
+      font-size: 35px;
+      font-family: pr;
+}
+
+#doy {
+     margin-top: 10px;
+     font-size: 15px;
+     background-color: transparent;
+     color: white;
+     border: none;
+     font-family: pr;
+     font-weight: 100;
+     
+}
+
+#img3{ 
+     height: 350px;
+     width: 410px;
+     /* padding-left: 100px; */
+     border-color: #858585;
+
+}
+
+#bottom2{
+      display: flex;
+     padding-top:40px ;
+     gap: 40px;
+}
+
+#rightside{
+    /* display: flex; */
+    /* position: absolute; */
+}
+#inmnm{
+    /* display: flex; */
+    position: absolute;
+    top: 129px;
+    left: 1000px;
+}
