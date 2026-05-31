@@ -1,0 +1,19 @@
+# Media files
+*.mp4
+*.webm
+*.avi
+*.mov
+*.mkv
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

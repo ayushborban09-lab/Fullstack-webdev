@@ -1,0 +1,43 @@
+    *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+main{
+    height: 450px;
+    width: 350px;
+    display: flex;
+    gap: 40px;
+   
+   
+}
+
+.card{
+    height: 450px;
+    width: 350px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* background-color: ; */
+}
+
+.img img{
+    height: 300px;
+    width: 260px;
+    /* object-fit: cover; */
+    border-radius: 10px;
+
+}
+.nameblock{
+    background-color: bisque;
+}
+
+
+
+

@@ -17,7 +17,7 @@ add.addEventListener("click",()=>{
       </div>`
 
       inp.value=""
-     
+
 
 
 

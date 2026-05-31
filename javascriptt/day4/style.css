@@ -1,0 +1,58 @@
+    *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+ width: 100%;
+}
+
+body{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#box{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+  
+}
+button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+     cursor: pointer;
+   
+}
+#buttons{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+#red{
+    background-color: red;
+    color: #fff;
+   
+}
+
+
+#yellow{
+    background-color: yellow;
+    color: #fff;
+}
+#pink{
+    background-color: pink;
+    color: #fff;
+}
+#blue{
+    background-color: blue;
+    color: #fff;
+}
+
