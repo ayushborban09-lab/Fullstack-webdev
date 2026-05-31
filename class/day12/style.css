@@ -1,0 +1,96 @@
+`    *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+ width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+
+}
+nav{
+    height: 8%;
+    width: 100%;
+    /* background-color: transparent; */
+    background: linear-gradient(blur,black);
+    backdrop-filter: blur(30px);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2CC4D0;
+    position: fixed;
+}
+
+#navleft{
+    display: flex;
+    gap: 30px;
+
+}
+
+#navcenter{
+ /* width: 20px; */
+
+margin-right: 250px;
+}
+
+
+#rightnav{
+    display: flex;
+    gap: 30px;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2{
+    position: absolute;
+    top: 250px;
+    color: aliceblue;
+    padding: 40px;
+}
+
+#page2 h1{
+    font-size: 100px;
+    mix-blend-mode: difference;
+    text-transform: uppercase;
+    font-weight: 900;
+
+
+}
+
+#page2 p{
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+ 
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: crimson;
+}
+/* white-space:nowrap */
+
+button{
+      margin-top: 30px;
+   padding: 10px 20px;
+   font-size: 17px;
+   /* background-color:; */
+   color: black;
+   border: 2px solid white;
+   background-color: white;
+   border-radius: 50px;
+   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+/* mix blend mode diffrance */
