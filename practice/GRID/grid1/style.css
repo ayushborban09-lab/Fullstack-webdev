@@ -1,0 +1,134 @@
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+
+   html,
+   body {
+       height: 100%;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+
+   main {
+       height: 100%;
+       width: 100%;
+       background-color: #fff;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr;
+       padding: 15px;
+       gap: 30px;
+       overflow: hidden;
+
+   }
+
+   div {
+       border-radius: 10px;
+   }
+
+
+   #box1 {
+       background-image: url(https://i.pinimg.com/1200x/02/4f/27/024f270a6c1a78efe185d862df5ff145.jpg);
+       background-position: center;
+       background-size: cover;
+       background-color: blue;
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 1;
+       grid-row-end: 3;
+       object-fit: cover;
+       
+   }
+
+   #box2 {
+        background-image: url(https://i.pinimg.com/1200x/a6/bd/4d/a6bd4db7ee7053689bd971b36cbcd1ef.jpg);
+       background-position: center;
+       background-size: cover;
+       background-color: salmon;
+       grid-column-start: 2;
+       grid-column-end: 4;
+       grid-row-start: 1;
+       grid-row-end: 2;
+       object-fit: cover;
+       overflow: hidden;
+   }
+
+   #box3 {
+       background-image: url(https://i.pinimg.com/736x/26/13/fc/2613fc62d4cb7681ea5fbac8e47bc3fe.jpg);
+       background-position: center;
+       background-size: cover;
+       background-color: coral;
+       grid-column-start: 2;
+       grid-column-end: 3;
+       object-fit: cover;
+       overflow: hidden;
+   }
+
+   #box4 {
+       background-image: url(https://i.pinimg.com/736x/6f/4a/a7/6f4aa7f0835274b188166a3cabc84e61.jpg);
+       background-position: center;
+       background-size: cover;
+       background-color: navajowhite;
+       grid-column-start: 3;
+       grid-column-end: 4;
+       grid-row-start : 2;
+       grid-row-end: 4;
+       object-fit: cover;
+       overflow: hidden;
+   }
+
+   #box5 {
+       background-image: url(https://i.pinimg.com/1200x/23/c3/6b/23c36b997f4facf89386e9674692b445.jpg);
+       background-position: center;
+       background-size: cover;
+       background-color: green;
+       object-fit: cover;
+       overflow: hidden;
+   }
+
+   #box6 {
+        background-image: url(https://i.pinimg.com/1200x/23/c3/6b/23c36b997f4facf89386e9674692b445.jpg);
+       background-position: center;
+       background-size: cover;
+       background-color: hotpink;
+       object-fit: cover;
+       overflow: hidden;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* main {
+       height: 100%;
+       width: 100%;
+       background-color: aqua;
+       display: grid; */
+   /* grid-template-columns: 33% 33% 33%; */
+   /* grid-template-columns: repeat(10,10%); */
+   /* grid-template-rows: repeat(200,5%); */
+   /* grid-template-rows: 25% 25% 25% 25%; */
+   /* grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr;
+       grid-template-areas: "";
+
+   } */
