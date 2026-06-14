@@ -1,0 +1,38 @@
+    *{
+margin : 0 ;
+padding : 0;
+box-sizing: border-box ;
+}
+html,body{
+  height: 100%;
+ width: 100%;
+ background-color:#E0E4CC ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+main{
+    height: 75vh;
+    width: 450px;
+    background-color: azure;
+}
+
+.contaoner{
+    height: 70vh;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    flex-direction: column;
+}
+
+.game{
+    height: 60vmin;
+    width: 100px;
+}
+
+.box{
+    height: 18vmin;
+    border: 2px solid black;
+}
