@@ -1,38 +1,94 @@
-    *{
-margin : 0 ;
-padding : 0;
-box-sizing: border-box ;
-}
-html,body{
-  height: 100%;
- width: 100%;
- background-color:#E0E4CC ;
- display: flex;
- justify-content: center;
- align-items: center;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-main{
-    height: 75vh;
-    width: 450px;
-    background-color: azure;
-}
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        text-align: center;
 
-.contaoner{
-    height: 70vh;
-    display: grid;
-    gap: 2px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    flex-direction: column;
-}
+    }
 
-.game{
-    height: 60vmin;
-    width: 100px;
-}
+    body {
+        background-color: #2193B0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-.box{
-    height: 18vmin;
-    border: 2px solid black;
-}
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
+
+    .contaoner {
+        height: 70vh;
+
+    }
+
+    .game {
+        height: 60vmin;
+        width: 60vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5vmin;
+
+
+
+    }
+
+    .box {
+        height: 18vmin;
+        width: 18vmin;
+        border: none;
+        border-radius: 1rem;
+        background-color: #6DD5ED;
+        cursor: pointer;
+        font-size: 12vmin;
+        font-weight: 800;
+        box-shadow: 0 0 1rem rgb(0, 0, 0.2);
+
+    }
+
+    .box:hover {
+        height: 20vmin;
+        width: 20vmin;
+
+    }
+
+    #reset {
+        padding: 1rem 1rem;
+        font-size: 1.25rem;
+        background-color: black;
+        color: azure;
+        border-radius: 1rem;
+        border: none;
+        box-shadow: 0 0 1rem rgb(0, 0, 0.2);
+        cursor: pointer;
+    }
+
+    .msg-container {
+        color: azure;
+        font-size: 8vmin;
+    }
+
+    #new_game {
+        padding: 1rem 1rem;
+        font-size: 1.25rem;
+        background-color: black;
+        color: azure;
+        border-radius: 1rem;
+        border: none;
+        box-shadow: 0 0 1rem rgb(0, 0, 0.2);
+        cursor: pointer;
+
+    }
