@@ -45,10 +45,11 @@ btn.addEventListener('click', () => {
 
 // })
 let body = document.body;
+// for fun 
 let main =document.querySelector("main");
 let sc =document.querySelector("#sc");
 let ti =document.querySelector("#ti");
-
+// ider tak
 box1.addEventListener("click", () => {
     scoreee +=1;
     scoree.textContent = scoreee;
@@ -61,7 +62,7 @@ box1.addEventListener("click", () => {
 
     body.style.backgroundColor = randomColor;
     
-
+// fun start
      let rdcolor = `rgb(
         ${Math.floor(Math.random()*250)},
         ${Math.floor(Math.random()*256)},
@@ -93,5 +94,6 @@ box1.addEventListener("click", () => {
     span.style.color=rdtop;
     sc.style.color=rdtop;
     ti.style.color=rdtop;
+    // fun end
        
 });
