@@ -79,6 +79,7 @@
     .msg-container {
         color: azure;
         font-size: 8vmin;
+        display: none;
     }
 
     #new_game {
@@ -92,3 +93,4 @@
         cursor: pointer;
 
     }
+    
