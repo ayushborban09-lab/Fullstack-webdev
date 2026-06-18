@@ -4,7 +4,7 @@ let main = document.querySelector("main");
 
 
 
-let arr = JSON.parse(localStorage("arr")) || arr;
+let arr = JSON.parse(localStorage.getItem("arr")) || [];
 
 let ui = () => {
     main.textContent = '';
@@ -18,3 +18,16 @@ let ui = () => {
 
 };
 ui();
+
+btn.addEventListener("click",()=>{
+    let value=input.value;
+        arr.push(value);
+        localStorage.setItem("arr", JSON.stringify(arr));
+       input.value = "";
+        ui();
+    
+
+     
+
+
+})
