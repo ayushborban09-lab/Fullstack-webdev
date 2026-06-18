@@ -1,0 +1,8 @@
+what is json =javascript object notation 
+
+local storage = rule , string and key,value
+formatter=json
+json=string
+
+localstorage.setitem=("user",JSON.stringify(user))
+JsON.parse()convert to normal
