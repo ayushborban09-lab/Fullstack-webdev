@@ -16,6 +16,7 @@
         text-align: center;
         overflow: hidden;
         position: relative;
+         /* perspective :1000px */
     }
 
     .banner .slider {
@@ -42,9 +43,8 @@
 
     .item {
         position: absolute;
-        inset: 0 0 0 0;
-        transform:
-            rotate(calc((var(--position)-1)*(360/var(--quantity))*1deg)) translateZ(550px);
+        inset: 0 ;
+        transform:rotateY(calc((var(--position)-1)*(360/var(--quantity))*1deg)) translateZ(550px);
         /* ?? */
     }
 
