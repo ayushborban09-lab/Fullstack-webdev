@@ -60,16 +60,16 @@
 
 // console.log(score, point);
 
-let fn = ({ name, age }) => {
-  console.log(name, age);
-};
+// let fn = ({ name, age }) => {
+//   console.log(name, age);
+// };
 
-fn({
-  name: "Raghav",
-  age: 89,
-  address: "Saket nagar",
-  company: "Google",
-});
+// fn({
+//   name: "Raghav",
+//   age: 89,
+//   address: "Saket nagar",
+//   company: "Google",
+// });
 
 // let obj = {
 //   name: "Raghav",
