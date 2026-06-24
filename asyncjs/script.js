@@ -174,3 +174,10 @@
 
 // fn();
 
+let response = fetch("https://fakestoreapi.com/products");
+
+response
+  .then((val) => {
+     return val.json();
+  })
+  .then((res) => console.log(res));
