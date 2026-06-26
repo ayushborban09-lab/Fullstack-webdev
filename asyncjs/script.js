@@ -181,3 +181,48 @@ response
      return val.json();
   })
   .then((res) => console.log(res));
+
+
+  let form = document.queryselector("form");
+
+let username = document.queryselector("#username");
+
+let email = document.querySelector("#email");
+
+let mobile = document.querySelector("#mobile");
+
+let street = document.queryselector("#street");
+
+let 1m = document.querySelector("#1m");
+
+let area = document.querySelector(".area");
+
+let userArr = [];
+
+form.addEventListener("submit", (e)= e.preventDefault();
+
+console.log('before pushing :', userArr);
+
+let details = {
+
+name: username.value,
+
+email: email.value,
+
+mobile: mobile.value,
+
+street: street.value,
+
+LandMark: 1m.value
+
+userArr.push(details);
+
+// console.log(userArr);
+
+// console.log(details);
+
+area.innerHTML = "":
+
+userArr.forEach( (elem)=>{
+
+area.innerHTML += <h1>${elem.name}</h1>}
