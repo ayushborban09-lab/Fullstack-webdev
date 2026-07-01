@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f3f4f6;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.navLeft a {
+
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.navRight a {
+  text-decoration: none;
+  font-size: 10px;
+  color: black;
+  font-size: 15px;
+}
+
+.navRight i {
+  font-size: 40px;
+}
+
+.navRight .profile {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-image: url("https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+}
+
+.main1 {
+  width: 100%;
+  min-height: 450px;
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Laptop-AI-7Ed-Sapphire-MC001-3000x1682:VP4-1399x600");
+  background-position: center;
+  background-size: cover;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+  color: black;
+}
+
+.main1 h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.main1 p {
+  font-size: 1rem;
+  max-width: 520px;
+  margin-bottom: 1rem;
+}
+
+.main1 button {
+  padding: 10px ;
+  font-size: 20px;
+  color: white;
+  background-color: #4a67b8;
+  border: none;
+}
+
+.main2 {
+  height: 100%;
+  width: 100%;
+}
+
+.main2 .main2Top {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main2Top .center {
+  width: min(100%, 1100px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.center .centerBox {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.center .centerBox i {
+  font-size: 35px;
+}
+
+.center .centerBox p {
+  font-size: 10px;
+}
+
+.main2 .main2Bottom {
+  width: 100%;
+  padding: 0 30px 40px;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main2Bottom .bottomBoxes {
+  width: min(100%, 280px);
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.bottomBoxes .boxTop {
+  width: 100%;
+  min-height: 170px;
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-M365-Icons-Teams?wid=297&hei=167&fit=crop");
+  background-position: center;
+  background-size: cover;
+}
+
+.bottomBoxes .boxContent {
+  width: 100%;
+  padding: 20px;
+}
+
+.boxContent h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.boxContent p {
+  font-size: 11px;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.boxContent button {
+  padding: 7px 10px;
+  font-size: 10px;
+  color: white;
+  background-color: #4a67b8;
+  border: none;
+}
+
+.bottomBoxes:nth-child(2) .boxTop {
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Copilot-Native-App-ROW?wid=297&hei=167&fit=crop");
+}
+
+.bottomBoxes:nth-child(3) .boxTop {
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-CP-Xbox-Series-S-Evergreen?wid=297&hei=167&fit=crop");
+}
+
+.bottomBoxes:nth-child(4) .boxTop {
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSX-CP-Xbox-Series-X?wid=297&hei=167&fit=crop");
+}
+
+.main3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main3 .main3Inside {
+  height: 85%;
+  width: 85%;
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-Game-Pass-APR-2025:VP4-1260x600");
+  background-position: center;
+  background-size: cover;
+}
