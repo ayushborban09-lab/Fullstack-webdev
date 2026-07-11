@@ -1,4 +1,5 @@
 import React from 'react'
+import Card1 from './card1'
 
 
  let arr =[
@@ -54,9 +55,13 @@ const App = () => {
   
   return (
     <div>
-      
+      {
+        arr.map((elem) => {
+          return <Card1 user={elem} />;
+        })
+      }
     </div>
   )
 }
 
-export default App
+export default App  
