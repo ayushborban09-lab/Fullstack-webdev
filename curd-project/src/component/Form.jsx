@@ -1,61 +1,60 @@
-import React from 'react'
-import { useState } from 'react'
-const Form = (setUserData) => {
-  const [FormData, setFormData] = useState(initialState);
+import React, { useState } from 'react'
+import { nanoid } from 'nanoid'
 
-  let formSubmit =(e) =>{
-    e.preventDefault();
-    setUserData([...FormData,UserData]);
-    setFormData({
-      name:"",
-      email:"",
-      mobile:"",
-      url:""
-    });
+const startingphase = {
+  name: '',
+  email: '',
+  mobile: '',
+  url: '',
+}
 
+const Form = ({ setUserData }) => {
+  const [formData, setFormData] = useState(startingphase)
+
+  const formSubmit = (e) => {
+    e.preventDefault()
+    setUserData((prev) => [...prev, { ...formData, id: nanoid() }])
+    setFormData(startingphase)
   }
 
-  
   return (
-    <div className='h-screen w-screen flex justify-content items-center p-3'>
-        
-  
-        <form 
-
+    <div className='h-screen w-screen flex justify-center items-center p-3'>
+      <form
         onSubmit={formSubmit}
-         className="flex rounded-xl gap-4 flex-col w-[40%] bg-white p-5" >
-          
-
-          {/* id date now? */}
+        className='flex rounded-xl gap-4 flex-col w-[40%] bg-white p-5'
+      >
         <input
-         onChange={()=>setFormData({...FormData,name: e.target.value})}
-          className="p-2 border border-gray-500 rounded"
-          type="text"
-          placeholder="Name"
-        />
-        <input 
-        onChange={()=>setFormData({...FormData,email: e.target.value})}
-                  className="p-2 border border-gray-500 rounded"
-          type="text"
-          placeholder="Email"
+          value={formData.name}
+          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+          className='p-2 border border-gray-500 rounded'
+          type='text'
+          placeholder='Name'
         />
         <input
-        onChange={()=>setFormData({...FormData,mobile: e.target.value})}
-          className="p-2 border border-gray-500 rounded"
-          type="text"
-          placeholder="mobile"
+          value={formData.email}
+          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+          className='p-2 border border-gray-500 rounded'
+          type='email'
+          placeholder='Email'
         />
         <input
-        onChange={()=>setFormData({...FormData,url: e.target.value})}
-          className="p-2 border border-gray-500 rounded"
-          type="text"
-          placeholder="Image url"
+          value={formData.mobile}
+          onChange={(e) => setFormData({ ...formData, mobile: e.target.value })}
+          className='p-2 border border-gray-500 rounded'
+          type='text'
+          placeholder='Mobile'
         />
-        <button className="p-2 rounded bg-blue-600 text-white">
-          Submit</button>
-
-           </form>
-      
+        <input
+          value={formData.url}
+          onChange={(e) => setFormData({ ...formData, url: e.target.value })}
+          className='p-2 border border-gray-500 rounded'
+          type='text'
+          placeholder='Image url'
+        />
+        <button className='p-2 rounded bg-blue-600 text-white' type='submit'>
+          Submit
+        </button>
+      </form>
     </div>
   )
 }

@@ -6,7 +6,13 @@ import Form from './component/Form';
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
-  const [userdata, setUserData] = useState([]);
+  const [userData, setUserData] = useState([]);
+
+
+  const deleteUser = (id) => {
+    const result = userData.filter((elem) => elem.id !== id);
+    setUserData(result);
+  };
 
   
   return (
@@ -14,7 +20,15 @@ const App = () => {
       <Navbar setToggle ={setToggle}/>
       
       <div className='flex gap-4 '>
-       {toggle ?<Form  setUserData={setUserData}/>:<UserCard/>}  
+      {toggle ? (
+        <Form setUserData={setUserData} />
+      ) : (
+        <div className="flex flex-wrap gap-5">
+          {userData.map((elem) => (
+            <UserCard key={elem.id} onDelete={deleteUser} user={elem} />
+          ))}
+        </div>
+      )}
       </div>                                                     
     </div>
     
